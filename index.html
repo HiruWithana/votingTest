@@ -6,17 +6,21 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
     <link rel="stylesheet" href="assests/sytles/style.css">
+
+    <style>
+
+    </style>
 </head>
 
 <body>
 
 
-    <div class="h-[100dvh] bg-gradient-to-b from-purple-900 to-blue-500 p-4 flex flex-col justify-center items-center bg-cover bg-center"
-        style="background-image: url(assests/img/background.jpg);">
+    <div
+        class="h-[100dvh] bg-gradient-to-b from-[#1a0232] via-[#420d53] to-[#6d2b68] p-4 flex flex-col justify-center items-center bg-cover bg-center">
 
 
         <div id="appContainer"
-            class="bg-white/20 backdrop-blur-lg h-[90dvh] w-full relative rounded-2xl shadow-2xl shadow-purple-500/50">
+            class="bg-whit backdrop-blur-lg h-[95dvh] w-full relative rounded-2xl shadow-2xl shadow-purple-500/50">
 
             <!-- hero section -->
             <section class="overflow-hidden  mx-auto p-4">
@@ -57,126 +61,152 @@
             <section class="mx-auto p-4 md:p-8" id="categoriesGrid">
 
                 <!-- main title -->
-                <h2 class="text-2xl font-semibold flex items-center mb-2 md:mb-4 fontSwiss text-white">
-                    Select a Category
+                <h2 class="text-2xl font-semibold text-center mb-4 fontSwiss text-white">
+                    Cast your Vote
                 </h2>
 
                 <!-- Best actor cards grid -->
-                <div class="h-[54dvh] sm:h-[66dvh] md:h-[50dvh] xl:h-[30dvh] overflow-y-auto">
+                <div class="h-[50dvh] sm:h-[66dvh] md:h-[50dvh] xl:h-[30dvh] overflow-y-auto">
 
                     <div class="grid grid-cols-3 sm:grid-cols-4 xl:grid-cols-6 gap-6">
 
-                        <!-- Best entertainment -->
-                        <a href="#" class="group">
-                            <!-- Image -->
-                            <img src="assests/img/entertainment/entertainment.jpg" alt="Profile"
-                                class="w-full h-2/3 object-cover md:group-hover:scale-105 transition-all ease-in-out duration-300" />
-                            <!-- category Title -->
-                            <h2 class="text-xs text-white font-semibold leading-tight mt-2">Entertainment</h2>
-                            <!-- sub category number -->
-                            <div class="flex">
-                                <p class="text-[8px] text-white font-medium">2
-                                    Sub-Categories</p>
-                            </div>
-                        </a>
 
-                        <!-- Best entertainment -->
-                        <a href="#" class="group">
-                            <!-- Image -->
-                            <img src="assests/img/entertainment/bestSinger.png" alt="Profile"
-                                class="w-full h-2/3 object-cover md:group-hover:scale-105 transition-all ease-in-out duration-300" />
-                            <!-- category Title -->
-                            <h2 class="text-xs text-white font-semibold leading-tight mt-2">Entertainment</h2>
-                            <!-- sub category number -->
-                            <div class="flex">
-                                <p class="text-[8px] text-white font-medium">2
-                                    Sub-Categories</p>
+                        <!-- single card | Television -->
+                        <div>
+                            <!-- main image -->
+                            <div class="flex flex-col justify-center items-center">
+                                <img src=" assests/img/entertainment/entertainment.jpg" alt="SANGEETHE"
+                                    class="w-20 h-20 border-2 border-yellow-400 rounded-lg shadow-lg shadow-yellow-500/50"
+                                    style="transform: skew(-8deg);" />
                             </div>
-                        </a>
+                            <!-- categories & subcategories -->
+                            <div class="mt-1">
+                                <p class="text-yellow-400 font-bold text-sm">Television</p>
+                                <p class="text-[10px] text-white">2 Sub Categories</p>
+                            </div>
+                        </div>
 
-                        <!-- Best entertainment -->
-                        <a href="#" class="group">
-                            <!-- Image -->
-                            <img src="assests/img/entertainment/bestActor.jpg" alt="Profile"
-                                class="w-full h-2/3 object-cover md:group-hover:scale-105 transition-all ease-in-out duration-300" />
-                            <!-- category Title -->
-                            <h2 class="text-xs text-white font-semibold leading-tight mt-2">Entertainment</h2>
-                            <!-- sub category number -->
-                            <div class="flex">
-                                <p class="text-[8px] text-white font-medium">2
-                                    Sub-Categories</p>
+                        <!-- single card | Teledrama -->
+                        <div>
+                            <!-- main image -->
+                            <div class="flex flex-col justify-center items-center">
+                                <img src=" assests/img/entertainment/entertainment.jpg" alt="SANGEETHE"
+                                    class="w-20 h-20 border-2 border-yellow-400 rounded-lg shadow-lg shadow-yellow-500/50"
+                                    style="transform: skew(-8deg);" />
                             </div>
-                        </a>
+                            <!-- categories & subcategories -->
+                            <div class="mt-1">
+                                <p class="text-yellow-400 font-bold text-sm">Teledrama</p>
+                                <p class="text-[10px] text-white">2 Sub Categories</p>
+                            </div>
+                        </div>
 
-                        <!-- Best entertainment -->
-                        <a href="#" class="group">
-                            <!-- Image -->
-                            <img src="assests/img/entertainment/bestSinger.png" alt="Profile"
-                                class="w-full h-2/3 object-cover md:group-hover:scale-105 transition-all ease-in-out duration-300" />
-                            <!-- category Title -->
-                            <h2 class="text-xs text-white font-semibold leading-tight mt-2">Entertainment</h2>
-                            <!-- sub category number -->
-                            <div class="flex">
-                                <p class="text-[8px] text-white font-medium">2
-                                    Sub-Categories</p>
+                        <!-- single card | Film -->
+                        <div>
+                            <!-- main image -->
+                            <div class="flex flex-col justify-center items-center">
+                                <img src=" assests/img/entertainment/entertainment.jpg" alt="SANGEETHE"
+                                    class="w-20 h-20 border-2 border-yellow-400 rounded-lg shadow-lg shadow-yellow-500/50"
+                                    style="transform: skew(-8deg);" />
                             </div>
-                        </a>
+                            <!-- categories & subcategories -->
+                            <div class="mt-1">
+                                <p class="text-yellow-400 font-bold text-sm">Film</p>
+                                <p class="text-[10px] text-white">2 Sub Categories</p>
+                            </div>
+                        </div>
 
-                        <!-- Best entertainment -->
-                        <a href="#" class="group">
-                            <!-- Image -->
-                            <img src="assests/img/entertainment/entertainment.jpg" alt="Profile"
-                                class="w-full h-2/3 object-cover md:group-hover:scale-105 transition-all ease-in-out duration-300" />
-                            <!-- category Title -->
-                            <h2 class="text-xs text-white font-semibold leading-tight mt-2">Entertainment</h2>
-                            <!-- sub category number -->
-                            <div class="flex">
-                                <p class="text-[8px] text-white font-medium">2
-                                    Sub-Categories</p>
+                        <!-- single card | Radio -->
+                        <div>
+                            <!-- main image -->
+                            <div class="flex flex-col justify-center items-center">
+                                <img src=" assests/img/entertainment/entertainment.jpg" alt="SANGEETHE"
+                                    class="w-20 h-20 border-2 border-yellow-400 rounded-lg shadow-lg shadow-yellow-500/50"
+                                    style="transform: skew(-8deg);" />
                             </div>
-                        </a>
+                            <!-- categories & subcategories -->
+                            <div class="mt-1">
+                                <p class="text-yellow-400 font-bold text-sm">Music</p>
+                                <p class="text-[10px] text-white">2 Sub Categories</p>
+                            </div>
+                        </div>
 
-                        <!-- Best entertainment -->
-                        <a href="#" class="group">
-                            <!-- Image -->
-                            <img src="assests/img/entertainment/bestSinger.png" alt="Profile"
-                                class="w-full h-2/3 object-cover md:group-hover:scale-105 transition-all ease-in-out duration-300" />
-                            <!-- category Title -->
-                            <h2 class="text-xs text-white font-semibold leading-tight mt-2">Entertainment</h2>
-                            <!-- sub category number -->
-                            <div class="flex">
-                                <p class="text-[8px] text-white font-medium">2
-                                    Sub-Categories</p>
+                        <!-- single card | Music -->
+                        <div>
+                            <!-- main image -->
+                            <div class="flex flex-col justify-center items-center">
+                                <img src=" assests/img/entertainment/entertainment.jpg" alt="SANGEETHE"
+                                    class="w-20 h-20 border-2 border-yellow-400 rounded-lg shadow-lg shadow-yellow-500/50"
+                                    style="transform: skew(-8deg);" />
                             </div>
-                        </a>
+                            <!-- categories & subcategories -->
+                            <div class="mt-1">
+                                <p class="text-yellow-400 font-bold text-sm">Music</p>
+                                <p class="text-[10px] text-white">2 Sub Categories</p>
+                            </div>
+                        </div>
 
-                        <!-- Best entertainment -->
-                        <a href="#" class="group">
-                            <!-- Image -->
-                            <img src="assests/img/entertainment/bestActor.jpg" alt="Profile"
-                                class="w-full h-2/3 object-cover md:group-hover:scale-105 transition-all ease-in-out duration-300" />
-                            <!-- category Title -->
-                            <h2 class="text-xs text-white font-semibold leading-tight mt-2">Entertainment</h2>
-                            <!-- sub category number -->
-                            <div class="flex">
-                                <p class="text-[8px] text-white font-medium">2
-                                    Sub-Categories</p>
+                        <!-- single card | Youtube -->
+                        <div>
+                            <!-- main image -->
+                            <div class="flex flex-col justify-center items-center">
+                                <img src=" assests/img/entertainment/entertainment.jpg" alt="SANGEETHE"
+                                    class="w-20 h-20 border-2 border-yellow-400 rounded-lg shadow-lg shadow-yellow-500/50"
+                                    style="transform: skew(-8deg);" />
                             </div>
-                        </a>
+                            <!-- categories & subcategories -->
+                            <div class="mt-1">
+                                <p class="text-yellow-400 font-bold text-sm">Youtube</p>
+                                <p class="text-[10px] text-white">2 Sub Categories</p>
+                            </div>
+                        </div>
 
-                        <!-- Best entertainment -->
-                        <a href="#" class="group">
-                            <!-- Image -->
-                            <img src="assests/img/entertainment/bestSinger.png" alt="Profile"
-                                class="w-full h-2/3 object-cover md:group-hover:scale-105 transition-all ease-in-out duration-300" />
-                            <!-- category Title -->
-                            <h2 class="text-xs text-white font-semibold leading-tight mt-2">Entertainment</h2>
-                            <!-- sub category number -->
-                            <div class="flex">
-                                <p class="text-[8px] text-white font-medium">2
-                                    Sub-Categories</p>
+                        <!-- single card | Social Media -->
+                        <div>
+                            <!-- main image -->
+                            <div class="flex flex-col justify-center items-center">
+                                <img src=" assests/img/entertainment/entertainment.jpg" alt="SANGEETHE"
+                                    class="w-20 h-20 border-2 border-yellow-400 rounded-lg shadow-lg shadow-yellow-500/50"
+                                    style="transform: skew(-8deg);" />
                             </div>
-                        </a>
+                            <!-- categories & subcategories -->
+                            <div class="mt-1">
+                                <p class="text-yellow-400 font-bold text-sm">Social Media</p>
+                                <p class="text-[10px] text-white">2 Sub Categories</p>
+                            </div>
+                        </div>
+
+                        <!-- single card | Business -->
+                        <div>
+                            <!-- main image -->
+                            <div class="flex flex-col justify-center items-center">
+                                <img src=" assests/img/entertainment/entertainment.jpg" alt="SANGEETHE"
+                                    class="w-20 h-20 border-2 border-yellow-400 rounded-lg shadow-lg shadow-yellow-500/50"
+                                    style="transform: skew(-8deg);" />
+                            </div>
+                            <!-- categories & subcategories -->
+                            <div class="mt-1">
+                                <p class="text-yellow-400 font-bold text-sm">Business</p>
+                                <p class="text-[10px] text-white">2 Sub Categories</p>
+                            </div>
+                        </div>
+
+                        <!-- single card | Special -->
+                        <div>
+                            <!-- main image -->
+                            <div class="flex flex-col justify-center items-center">
+                                <img src=" assests/img/entertainment/entertainment.jpg" alt="SANGEETHE"
+                                    class="w-20 h-20 border-2 border-yellow-400 rounded-lg shadow-lg shadow-yellow-500/50"
+                                    style="transform: skew(-8deg);" />
+                            </div>
+                            <!-- categories & subcategories -->
+                            <div class="mt-1">
+                                <p class="text-yellow-400 font-bold text-sm">Special</p>
+                                <p class="text-[10px] text-white">2 Sub Categories</p>
+                            </div>
+                        </div>
+
+
 
 
                     </div>
